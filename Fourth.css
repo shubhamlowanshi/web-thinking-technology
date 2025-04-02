@@ -1,0 +1,55 @@
+.container {
+    height: 730px;
+    background-color: #FFFFFF;
+
+    width: 100%;
+}
+
+.cont-item {
+    height: 500px;
+    width: 50%;
+
+    margin: auto;
+    /* display: flex; */
+}
+
+.fdiv {
+    margin-top: 32px;
+    border-bottom: 4px solid #EDEDED;
+
+
+}
+
+/* 
+.vertical {
+
+
+    border-right: 4px solid #EDEDED;
+} */
+
+.cont-child {
+    display: inline-block;
+    margin: 10px;
+    margin-left: 50px;
+    height: 45%;
+    /* background-color: gray; */
+    width: 40%;
+
+}
+
+.title {
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.nd {
+    position: relative;
+    top: 120px
+}
+
+.discription {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #999999;
+    width: 300px;
+}

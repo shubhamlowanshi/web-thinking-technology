@@ -1,0 +1,106 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#F5F5F5;
+
+  }
+  .enq-btn {
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    color: black;
+    border: 1px solid black;
+  }
+  .logo img {
+    height: 14vh;
+    width: 15vw;
+  }
+  .bookcall{
+    margin: 30px;
+    background-color: #4A00E0;
+  }
+  /* Hide nav items initially on mobile */
+  .navitems {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .navitems button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    color: black;
+    border: 1px solid black;
+  }
+  
+  /* Mobile View - Show hamburger menu */
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: row;
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .navitems {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      right: 10px;
+      background: white;
+      width: 200px;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .hero{
+        background-color: #F5F5F5;
+        
+    }
+    
+  
+    .navitems.open {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+    /* Center hero section and make text responsive */
+    .firstcont {
+      text-align: center;
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    h4 {
+      font-size: 1.4rem;
+    }
+  
+    .enq-btn {
+      padding: 10px 15px;
+      font-size: 1rem;
+      margin: 5px;
+    }
+  
+    /* Make category images scrollable */
+    .grp22 {
+      width: 100%;
+      max-width: 90%;
+      display: block;
+      margin: auto;
+    }
+  }
+  
